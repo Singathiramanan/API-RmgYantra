@@ -86,6 +86,7 @@ public class CreateProjectAndCheckInGuiAndDatabaseTest {
 					
 					sf.assertTrue(actData.equals(pname));
 					flag=true;
+					
 			}
 			}
 				if(flag==true){

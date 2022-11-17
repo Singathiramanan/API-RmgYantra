@@ -21,7 +21,7 @@ public class BodyValidationTest {
 		System.out.println(body);
 		Boolean flag=false;
 		
-		if(body.contains("TY_PROJ_005")) {
+		if(body.contains("TY_PROJ_2402")) {
 			flag=true;
 			System.out.println("found");
 		}
