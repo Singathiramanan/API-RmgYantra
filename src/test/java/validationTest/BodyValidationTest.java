@@ -16,7 +16,6 @@ public class BodyValidationTest {
 		String expectStatusLine="HTTP/1.1 200";
 		Response res=given()
 		.get("projects");
-		
 		String body=res.getBody().asString();
 		System.out.println(body);
 		Boolean flag=false;

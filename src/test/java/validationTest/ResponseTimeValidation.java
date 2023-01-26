@@ -12,6 +12,6 @@ public class ResponseTimeValidation {
 	public void ValrespTime(){
 		baseURI="http://localhost";
 		port=8085;
-		when().get("projects").then().assertThat().time(Matchers.lessThan(2000L), TimeUnit.MILLISECONDS);		
+		when().get("projects").then().assertThat().time(Matchers.lessThan(2000L),TimeUnit.MILLISECONDS);		
 	}
 }
